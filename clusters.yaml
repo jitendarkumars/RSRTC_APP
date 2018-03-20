@@ -1,0 +1,7 @@
+- alias: hasura
+  config:
+    configmap: controller-conf
+    namespace: alliance16-hasura
+  data: null
+  kubeContext: alliance16
+  name: alliance16
